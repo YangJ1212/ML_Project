@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd    
 import matplotlib.pyplot as plt   
 from sklearn.preprocessing import PolynomialFeatures    
-from sklearn.linear_model import LinearRegression, HuberRegressor    
+from sklearn.linear_model import LinearRegression, HuberRegressor  
 from sklearn.metrics import mean_squared_error    
 
 
@@ -123,7 +123,7 @@ print("w1 = ", regr.coef_)
 print("w0 = ",regr.intercept_) 
 
 
-# In[37]:
+# In[37]
 
 
 print("Because the training error of the linear regrassion is extremely large.")
