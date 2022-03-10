@@ -123,7 +123,7 @@ print("w1 = ", regr.coef_)
 print("w0 = ",regr.intercept_) 
 
 
-# In[37]
+# In[37]:
 
 
 print("Because the training error of the linear regrassion is extremely large.")
